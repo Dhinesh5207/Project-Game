@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #fff, rgb(189, 182, 182));
+    background-image: url(https://raw.githubusercontent.com/Saumya-07/Fruit-Slicer/master/images/bg3%20-%20Copy.jpg);
+    background-size: cover;
+    font-family: cursive, sans-serif;
+  }
+  
+  #container {
+    width: 950px; /* Increased width */
+    height: 750px; /* Increased height */
+    margin: 50px auto; /* Added margin for proper centering */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional semi-transparent background */
+  }
+  
+  #front {
+    font-size: 50px; /* Increased font size */
+    color: #d3901d;
+    width: 850px; /* Adjusted width */
+    height: 650px; /* Adjusted height */
+    padding: 10px;
+    margin: 30px auto 20px auto;
+    z-index: 2;
+    display: none;
+  }
+  
+  #front img {
+    width: 400px; /* Increased logo size */
+  }
+  
+  #instructions {
+    width: 600px; /* Adjusted size */
+    height: 60px;
+    margin: 10px auto;
+    font-size: 36px; /* Larger font size */
+    background-color: #d3901d;
+    color: #2e1d11;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px #775012;
+  }
+  
+  #fruitcontainer {
+    background: url(https://raw.githubusercontent.com/Saumya-07/Fruit-Slicer/master/images/wood-bg2.jpg);
+    background-size: cover;
+    width: 850px; /* Increased width */
+    height: 650px; /* Increased height */
+    padding: 10px;
+    margin: 30px auto 20px auto;
+    color: black;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px #4b4b4e;
+    position: relative;
+  }
+  
+  .fruit {
+    display: none;
+    position: absolute;
+  }
+  
+  #score {
+    display: none;
+  }
+  
+  .scoreDisplay {
+    z-index: 1;
+    display: flex;
+    background-color: transparent;
+    color: #888e61;
+    position: absolute;
+    font-size: 36px; /* Increased font size */
+    justify-items: center;
+  }
+  
+  #score img {
+    width: 50px;
+    align-items: center;
+    padding-right: 5px;
+  }
+  
+  #trialsleft {
+    margin-top: 7px;
+    display: flex;
+    position: absolute;
+    left: 750px; /* Adjusted position */
+    background-color: transparent;
+    z-index: 1;
+  }
+  
+  .life {
+    width: 40px;
+    padding-right: 5px;
+  }
+  
+  #startReset {
+    position: relative;
+    width: 110px; /* Increased button size */
+    padding: 15px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    background-color: #8d8315;
+    box-shadow: 0px 4px 0px 0px #5c5619;
+    border-radius: 5px;
+    transition: all 0.2s;
+  }
+  
+  #startReset:active {
+    background-color: #69620c;
+    box-shadow: 0px 0px #5c5619;
+    top: 4px;
+    color: white;
+  }
+  
+  #gameOver {
+    box-sizing: border-box;
+    width: 700px; /* Adjusted size */
+    height: 400px; /* Adjusted size */
+    background: transparent;
+    color: #d3901d;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    z-index: 2;
+  }
+  
